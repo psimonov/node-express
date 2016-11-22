@@ -1,0 +1,22 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psimonov/node-express.git"
+  },
+  "author": "Pavel Simonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psimonov/node-express/issues"
+  },
+  "homepage": "https://github.com/psimonov/node-express#readme",
+  "dependencies": {
+    "express": "latest"
+  }
+}

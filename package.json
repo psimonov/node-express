@@ -2,9 +2,8 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "Express — Fast, unopinionated, minimalist web framework for Node.js",
-  "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon ./app/server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,7 @@
   },
   "homepage": "https://github.com/psimonov/node-express#readme",
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "nodemon": "latest"
   }
 }

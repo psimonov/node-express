@@ -16,7 +16,6 @@
   },
   "homepage": "https://github.com/psimonov/node-express#readme",
   "dependencies": {
-    "express": "latest",
-    "nodemon": "latest"
+    "express": "latest"
   }
 }

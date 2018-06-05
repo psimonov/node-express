@@ -7,6 +7,7 @@ COPY package.json /usr/src/node-express/
 COPY app/app.js /usr/src/node-express/app/
 COPY app/server.js /usr/src/node-express/app/
 
+RUN yarn global add nodemon
 RUN yarn install
 
 EXPOSE 3000
